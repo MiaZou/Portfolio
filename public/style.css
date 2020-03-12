@@ -4,14 +4,15 @@ body {
 }
 
 h1 {
-  color: #6b32a8;
+  font-family: 'Grenze', serif;
+  color: black;
   font-size: 50px;
   font-weight: normal;
   margin-bottom: 0;
 }
 
 h2 {
-  color: #421275;
+  color: black;
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
@@ -28,30 +29,116 @@ h3 {
 
 h4 {
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 p {
   text-align: center;
 }
 
-.bio {
-  color: #2f1847;
+.so-white {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+}
+
+.main-center {
+  position: fixed;
+  z-index: 2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  text-align: center;
+}
+
+.main-subtitle {
+  font-family: arial;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.main-title {
+  font-family: 'Libre Caslon Display', serif;
+  width: 450px;
+  font-size: 72px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.main-name {
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+.main-button-black {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin-right: 10px;
+    text-decoration: none;
+    background: black;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.main-button-white {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    margin-left: 10px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background: #0053ba;
+}
+
+.main-button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.main-button:active {
+    transform: scale(0.99);
+}
+
+.bio {
+  font-family: 'Lato', sans-serif;
+  margin: 15px;
+  color: #2f1847;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .me {
   height: 250px;
   border-radius: 10px;
   border-style: solid;
-  border-color: silver;
-  margin-top: 40px;
+  border-color: gray;
+  margin-top: 50px;
 }
 
-
-
 .intro {
-  width: 450px;
+  width: 420px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -60,44 +147,23 @@ p {
 .grey {
   height: 3px;
   background-color: #54575c;
-  border: none;
   width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about {
-  background: url('bg.jpg') no-repeat center center fixed; 
+  background: url('blanket-white.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 750px;
+  height: 780px;
 }
 
-.project {
-  background: url('so-white.png'); 
-}
-
-.nav-header li {
-  display: inline-block;
-  font-size: 40px;
-  width: 220px;
-  font-weight: bold;
-  margin-top: 30px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  text-align: center;
-  margin-left: 30px;
-}
-
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-}
-
-.hire-me {
-  border-style: solid;
-  border-color: white;
+.item {
+  color: black;
+  font-size: 18px;
 }
 
 .yellow {
@@ -110,11 +176,14 @@ p {
   border-right: none;
 }
 
-.box {
-  float: left;
-  width: 42.5%;
-  margin-left: 5%;
+.project-item {
+  width: 75%;
 }
+
+.project-title {
+  left: 75%;
+}
+
 
 .clear {
   clear: both;
@@ -124,12 +193,15 @@ p {
   width: 100%;
 }
 
+.lan-and-tools {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .skills-and-tools {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .icons {

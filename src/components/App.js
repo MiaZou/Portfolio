@@ -1,20 +1,40 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import Main from './Main';
 import About from './About';
 import Header from './Header';
 import Project from './Project';
 
 class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      clicked: true,
+    };
+  }
+
+  renderMain = () => {
+    this.setState({ clicked: true });
+  }
 
   render() {
     return (
-      <div className="container">
-        <Router>
-          <Header />
-          <Route path="/" exact component={About} />
-          <Route path="/project" component={Project} />
-        </Router>
+      <div className="first-page">
+        {this.state.clicked ?
+          <div className="container">
+            <Router>
+              <Header />
+              <Route path="/" exact component={About} />
+              <Route path="/project" component={Project} />
+            </Router>
+          </div>
+          :
+          <Main 
+            renderMain={this.renderMain}
+          />
+        }
+
       </div>
     );
   }

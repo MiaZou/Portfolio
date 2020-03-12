@@ -5,20 +5,12 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <ul className="nav-header">
-          <li>
-            <Link to="/" >About</Link>
-          </li>
-          <li>
-            <Link to="/project" >Project</Link>
-          </li>
-          <li>
-            Skills & Tools
-          </li>
-          <li>
-            Hire Me!
-          </li>
-        </ul>
+        <div className="ui tabular menu">
+          <a href="/" className="item" >About</a>
+          <a className="item" >Projects</a>
+          <a href="" className="item">Tools</a>
+          <a href="" className="item">Contact</a>
+        </div>
       </div>
     );
   }
