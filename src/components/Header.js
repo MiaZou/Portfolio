@@ -5,12 +5,12 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <ul>
+        <ul className="nav-header">
           <li>
-            About
+            <Link to="/" >About</Link>
           </li>
           <li>
-            Projects
+            <Link to="/project" >Project</Link>
           </li>
           <li>
             Skills & Tools

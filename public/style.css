@@ -1,7 +1,86 @@
-li {
+body {
+  font-family: 'Grenze', serif;
+  margin: 0;
+}
+
+h1 {
+  color: #6b32a8;
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #421275;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 100px;
+  margin-bottom: 5;
+}
+
+h4 {
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  text-align: center;
+}
+
+.bio {
+  color: #2f1847;
+  font-size: 20px;
+}
+
+.me {
+  height: 250px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: silver;
+  margin-top: 40px;
+}
+
+
+
+.intro {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grey {
+  height: 3px;
+  background-color: #54575c;
+  border: none;
+  width: 150px;
+}
+
+.about {
+  background: url('bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+}
+
+.project {
+  background: url('so-white.png'); 
+}
+
+.nav-header li {
   display: inline-block;
-  font-size: 30px;
-  width: 200px;
+  font-size: 40px;
+  width: 220px;
   font-weight: bold;
   margin-top: 30px;
   padding-top: 8px;
@@ -10,11 +89,77 @@ li {
   margin-left: 30px;
 }
 
-.header {
-  background: url('bg.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 120px;
+
+.nav-link {
+  color: white;
+  text-decoration: none;
 }
+
+.hire-me {
+  border-style: solid;
+  border-color: white;
+}
+
+.yellow {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #3A0765 inset;
+  width: 100px;
+  margin-bottom: 30px;
+  border-bottom: none;
+  border-right: none;
+}
+
+.box {
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+}
+
+.clear {
+  clear: both;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.skills-and-tools {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.icons {
+  text-align: center;
+  margin-bottom: 30px 0;
+}
+
+.icon {
+  margin: 30px 0;
+}
+
+.contact-me {
+  height: 350px;
+  background-color: #202020;
+  padding-top: 30px;
+}
+
+.contact-headline {
+  color: white;
+}
+
+.contact-info {
+  color: white;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.contact-link {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
