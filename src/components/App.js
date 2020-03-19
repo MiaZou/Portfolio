@@ -5,6 +5,7 @@ import Main from './Main';
 import About from './About';
 import Header from './Header';
 import Project from './Project';
+import Contact from './Contact';
 
 class App extends React.Component {
   constructor() {
@@ -27,6 +28,7 @@ class App extends React.Component {
               <Header />
               <Route path="/" exact component={About} />
               <Route path="/project" component={Project} />
+              <Route path="/contact" component={Contact} />
             </Router>
           </div>
           :

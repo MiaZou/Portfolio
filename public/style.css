@@ -176,14 +176,150 @@ p {
   border-right: none;
 }
 
+.project h3 {
+  font-size: 36px;
+  text-align: left;
+  padding-left: 7%;
+  padding-top: 5%;
+}
+
+.project p {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 7%;
+}
+
+.project-whole {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 40%;
+  padding-top: 4%;
+  text-align: left;
+}
+
 .project-item {
-  width: 75%;
+  width: 40%;
+  margin: 3%;
+  height: 100%;
+}
+
+#project-id-1 {
+  background-color: #F0FCF8;
+}
+
+#project-id-2 {
+  background-color: #F0E2F3;
+}
+
+#project-id-3 {
+  background-color: #E2E2F0;
+}
+
+#project-id-4 {
+  background-color: #FAFCD9;
 }
 
 .project-title {
-  left: 75%;
+  margin-top: 8%;
+  margin-left: 8%;
+  height: 10%;
+  font-size: 24px;
 }
 
+.project-logo {
+  position: absolute;
+  padding-left: 32%;
+}
+
+.project-logo i {
+  margin-left: 5px;
+}
+
+
+.project-des {
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 8%;
+
+}
+
+
+.project-img {
+  margin-top: 10%;
+  text-align: center;
+  height: 60%;
+  width: 75%;
+}
+
+.project-img img {
+  display: fixed;
+  height: 100%;
+  width: 100%;
+  margin-left: 16%;
+  margin-bottom: 0px;
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#contact-pic {
+  margin: 5%;
+  margin-top: 0%;
+}
+
+.contact-item {
+  position: absolute;
+  margin-left: 55%;
+}
+
+#contact-info {
+  padding-top: 10%;
+  text-align: left;
+  font-family: 'Times New Roman';
+}
+
+.contact-item h3 {
+  font-size: 46px;
+  font-family: 'Times New Roman';
+  text-align: left;
+}
+
+.contact-item p {
+  text-align: left;
+}
+
+.contact-des {
+  padding-top: 3%;
+  text-align: left;
+  font-size: 18px;
+  width: 80%;
+}
+
+.email {
+  padding-top: 8%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.email-add {
+  font-size: 18px;
+}
+
+.other-contacts {
+  padding-top: 8%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.social-items {
+  padding-top: 2%;
+  font-size: 18px;
+}
 
 .clear {
   clear: both;

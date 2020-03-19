@@ -3,33 +3,35 @@ import React from 'react';
 const projects = [
   {
     id: 1,
-    title: 'Yelp Clone - Nomster',
-    img: 'nomster1.jpg',
-    description: 'A Yelp clone that integrates with the PostgreSQL database, the Google Maps API, and includes features like user comments, star ratings, image uploading (Amazon S3), and user authentication.'
+    title: 'Nomster',
+    git: 'https://github.com/MiaZou/Nomster',
+    heroku: 'https://nomster-mia-zou.herokuapp.com/',
+    img: 'nomster.jpg',
+    description: 'A Yelp clone'
   },
   {
     id: 2,
-    title: 'Youtube Clone - VideosApp',
+    title: 'VideosApp',
+    git: 'https://github.com/MiaZou/videosApp',
+    heroku: 'https://videos-react-app.herokuapp.com/',
     img: 'videosReact.jpg',
-    description: 'A youtube similar browser application which allows users to type the search terms on the input box, view the list of results, and click to play in the embedded player. The application focused on React and CSS. It integrates axios, youtube public free API, and semantic ui css library.'
+    description: 'A Youtube clone'
   },
   {
     id: 3,
-    title: 'Udemy Clone - Flixter',
+    title: 'Flixter',
+    git: 'https://github.com/MiaZou/Flixter',
+    heroku: 'https://flixter-mia-zou.herokuapp.com/',
     img: 'flixter.jpg',
-    description: 'A Udemy clone online lecturing application with features of video uploading (Amazon S3), credit card payment capabilities (Stripe API), database relationships(PostgreSQL).'
+    description: 'A Udemy clone'
   },
   {
     id: 4,
-    title: 'Note',
-    img: 'notes.jpg',
-    description: 'A note-taking app that integrates with JavaScript, React framework, and Axios to build functions like adding notes, editing notes, deleting, and tagging notes.'
-  },
-  {
-    id: 5,
     title: 'Todoster',
+    git: 'https://github.com/MiaZou/todo-mz',
+    heroku: 'http://todoster-mia-zou.herokuapp.com/',
     img: 'todoster.jpg',
-    description: 'A single-page to-do application features a fluid user interface by using JavaScript - allows users to rapidly add dynamic content.'
+    description: 'A to-do list'
   }
 ];
 
@@ -49,34 +51,35 @@ class Project extends React.Component {
   renderList() {
     return this.state.projects.map(project => {
       return (
-        <div className="ui button project-title">
-          {project.title}
-        </div>
-      );
-    });
-  }
-
-
-  renderProject() {
-    return this.state.projects.map(project => {
-      return (
-        <div className="project-list" key={project.id}>
-          <h4>{project.title}</h4>
-
-          <p>
+        <div className="project-item" id={`project-id-${project.id}`}>
+          <div className="project-top">
+            <div className="project-title">{project.title}</div>
+            <div className="project-logo">
+              <a href={project.git}>
+                <i class="fab fa-github"></i>
+              </a>
+              <a href={project.heroku}>
+                <i class="fab fa-kickstarter-k"></i>
+              </a>
+            </div>
+          </div>
+          <div className="project-des">
             {project.description}
-          </p>
+          </div>
+          <div align="bottom" className="project-img">
+            <img src={project.img} alt="" ></img>
+          </div>
         </div>
       );
     });
-
   }
 
   render() {
     return (
-      <div>
-        <h1>Welcome, please select a project to view</h1>
-        <div onClick={(e) => console.log(e.target)} className="ui basic buttons project-item">
+      <div className="project">
+        <h3>Projects</h3>
+        <p>Click icons to be redirected, :) </p>
+        <div onClick={(e) => console.log(e.target)} className="project-whole">
           {this.renderList()}
         </div>
       </div>
