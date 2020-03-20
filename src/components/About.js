@@ -2,11 +2,12 @@ import React from 'react';
 import Skill from './Skill';
 
 class About extends React.Component {
+
   render() {
     return(
       <div className="about">
         <div className="intro">
-          <img src="me.jpg" className="me" />
+          <img src="me.jpg" alt="" className="me" />
 
           <h1>Mia (Mirong) Zou</h1>
           <h2>WEB DEVELOPER / REGISTERED DIETITIAN</h2>
@@ -18,13 +19,12 @@ class About extends React.Component {
             
             Particularly, enjoy building pieces with JS and React. 
           </p>
-        </div>
-        
+        </div>         
         <Skill />
-
       </div>
     );
   }
 }
 
 export default About;
+

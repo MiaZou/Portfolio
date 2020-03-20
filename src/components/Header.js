@@ -6,9 +6,9 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div className="ui tabular menu">
-          <a href="/" className="item" >About</a>
-          <a href="/project" className="item" >Projects</a>
-          <a href="/contact" className="item">Contact</a>
+          <Link to="/" className="item" >About</Link>
+          <Link to="/project" className="item" >Projects</Link>
+          <Link to="/contact" className="item">Contact</Link>
           <a href="https://drive.google.com/open?id=1rerwOXvWxkGEX1WRODianmztj9N3sY0A" className="item">Resume</a>
         </div>
       </div>

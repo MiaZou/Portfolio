@@ -37,15 +37,14 @@ p {
 }
 
 .so-white {
+  position: fixed;
   height: 100%;
   width: 100%;
-  z-index: 1;
-  position: absolute;
 }
 
 .main-center {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -60%);
