@@ -55,12 +55,8 @@ class Project extends React.Component {
           <div className="project-top">
             <div className="project-title">{project.title}</div>
             <div className="project-logo">
-              <a href={project.git}>
-                <i class="fab fa-github"></i>
-              </a>
-              <a href={project.heroku}>
-                <i class="fab fa-kickstarter-k"></i>
-              </a>
+              <a href={project.git}><i class="fab fa-git-square fa-2x"></i></a>
+              <a href={project.heroku}><i class="fas fa-directions fa-2x"></i></a>
             </div>
           </div>
           <div className="project-des">
