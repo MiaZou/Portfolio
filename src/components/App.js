@@ -6,6 +6,7 @@ import About from './About';
 import Header from './Header';
 import Project from './Project';
 import Contact from './Contact';
+import Resume from './Resume';
 
 class App extends React.Component {
   constructor() {
@@ -29,6 +30,7 @@ class App extends React.Component {
               <Route path="/" exact component={About} />
               <Route path="/project" component={Project} />
               <Route path="/contact" component={Contact} />
+              <Route path="/resume" component={Resume} />
             </Router>
           </div>
           :

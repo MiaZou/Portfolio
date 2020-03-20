@@ -24,7 +24,9 @@ class Contact extends React.Component {
             </a>
           </div>
           <div className="social-items">
-            <i class="far fa-file"></i> Resume
+            <a href="/resume">
+              <i class="far fa-file"></i> Resume
+            </a>
           </div>
         </div>
       </div>
