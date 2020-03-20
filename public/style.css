@@ -260,8 +260,8 @@ p {
   height: 100%;
   width: 100%;
   margin-left: 16%;
-  margin-bottom: 0px;
-  box-shadow:0 0 20px rgba(0,0,0,0.8);
+  margin-bottom: -4px;
+  box-shadow: 0 0 3em rgba(0,0,0,0.2);
 }
 
 .contact-box {
