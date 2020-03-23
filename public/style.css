@@ -222,6 +222,14 @@ p {
   background-color: #FAFCD9;
 }
 
+#project-id-5 {
+  background-color: #FDEBE7;
+}
+
+#project-id-6 {
+  background-color: #E7F9FD;
+}
+
 .project-title {
   margin-top: 8%;
   margin-left: 8%;
@@ -236,7 +244,6 @@ p {
 
 .project-logo i {
   margin-left: 5px;
-
 }
 
 
@@ -244,7 +251,11 @@ p {
   font-size: 16px;
   margin-top: 3%;
   margin-left: 8%;
+}
 
+.project-lan {
+  margin-top: 1%;
+  margin-left: 8%;
 }
 
 
