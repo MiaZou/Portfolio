@@ -278,12 +278,12 @@ p {
 }
 
 .contact-item img {
-  max-width: 100%;
+  width 100%;
   height: auto;
 }
 
 .contact-item {
-  position: fixed;
+  position: relative;
   margin-left: 55%;
 }
 
