@@ -13,11 +13,11 @@ class About extends React.Component {
           <h2>WEB DEVELOPER / REGISTERED DIETITIAN</h2>
           <hr className="grey"/>
           <p className="bio">
-            Mia (Mirong) Zou is a self-motivated full-stack developer with a passion for code writing. 
+            I am a self-motivated full-stack developer with a passion for code writing. 
             
-            Previously worked as a Registered Dietitian which enhanced problem-solving skills similar in software development - effectively break a big problem into smaller components and aim to fix one piece at a time efficiently. 
+            Previously worked as a Registered Dietitian I possess enhanced problem-solving skills similar to those required for software development. I can effectively break a big problem into smaller components where I aim to fix one piece at a time efficiently. 
             
-            Particularly, enjoy building pieces with JS and React. 
+            I particularly enjoy building pieces with JS and React. 
           </p>
         </div>         
         <Skill />
