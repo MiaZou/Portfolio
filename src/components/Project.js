@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: 'Forkify',
     git: 'https://github.com/MiaZou/forkify',
-    heroku: 'http://73.71.152.77:667/',
+    heroku: 'https://www.forkify.miazou.com',
     img: 'forkify.png',
     description: 'A recipe search app',
     language: 'JS, node, webpack'
