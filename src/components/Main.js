@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 
 class Main extends React.Component {
 
-  renderContact = () => {
-
-  }
-
   render (){
     return (
       <div className="main">

@@ -17,7 +17,6 @@ class About extends React.Component {
             
             Previously worked as a Registered Dietitian I possess enhanced problem-solving skills similar to those required for software development. I can effectively break a big problem into smaller components where I aim to fix one piece at a time efficiently. 
             
-            I particularly enjoy building pieces with JS and React. 
           </p>
         </div>         
         <Skill />
