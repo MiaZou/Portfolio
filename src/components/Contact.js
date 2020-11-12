@@ -24,7 +24,7 @@ class Contact extends React.Component {
             </a>
           </div>
           <div className="social-items">
-            <a href="https://drive.google.com/file/d/11whjTfBmUEYf-wRVzoIG0d_W0eXsaHfC/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1lF_D_QmLkn2b-anhvLObBYr3-1xdjlCs/view?usp=sharing">
               <i class="far fa-file"></i> Resume
             </a>
           </div>
