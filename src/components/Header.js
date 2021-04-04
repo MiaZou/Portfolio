@@ -9,7 +9,7 @@ class Header extends React.Component {
           <Link to="/" className="item" >About</Link>
           <Link to="/project" className="item" >Projects</Link>
           <Link to="/contact" className="item">Contact</Link>
-          <a href="https://drive.google.com/file/d/1LrYjZziQBRXpAVHZEEUmxtbodiacoNva/view?usp=sharing" className="item">Resume</a>
+          <a href="https://drive.google.com/file/d/1Zeb-PnUDovlbv_ckdr59gCH1pqQdmWYm/view?usp=sharing" className="item">Resume</a>
         </div>
       </div>
     );
