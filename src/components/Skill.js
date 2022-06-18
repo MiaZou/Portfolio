@@ -9,15 +9,11 @@ class Skill extends React.Component {
         <hr className="yellow" />
         
         <div className="icons">
-          <img src="skill.png" alt="" className="skill-icon" />
+          <img src="languages.png" alt="" className="language-icon" style={{width: '500px'}}/>
         </div>
 
         <div className="icons">
-          <img src="github.png" alt="" className="icon" />
-          <img src="trello.png" alt="" className="icon" />
-          <img src="slack.png" alt="" className="icon" />
-          <img src="heroku.jpg" alt="" className="icon" />
-
+          <img src="tools.png" alt="" className="icon" style={{width: '800px'}}/>
           <br className="clear" />
         </div>
         <br className="clear" />

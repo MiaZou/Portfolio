@@ -10,13 +10,11 @@ class About extends React.Component {
           <img src="me.jpg" alt="" className="me" />
 
           <h1>Mia (Mirong) Zou</h1>
-          <h2>WEB DEVELOPER / REGISTERED DIETITIAN</h2>
+          <h2>SOFTWARE ENGINEER</h2>
           <hr className="grey"/>
           <p className="bio">
-            I am a self-motivated full-stack developer with a passion for code writing. Currently working as a mobile developer intern for both iOS and Android using Flutter.
-            
-            Previously worked as a Registered Dietitian I possess enhanced problem-solving skills similar to those required for software development. I can effectively break a big problem into smaller components where I aim to fix one piece at a time efficiently. 
-            
+            I am a student at Pennsylvania State University purchsing Master's degree in Software Engineering.
+            I interned at Amazon and Coursera where I focused on front-end projects. I also worked on mobile development and wrote backend API endpoints.
           </p>
         </div>         
         <Skill />
